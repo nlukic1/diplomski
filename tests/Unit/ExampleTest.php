@@ -22,7 +22,7 @@ class ExampleTest extends TestCase
         $a = 5;
         $b = 3;
         $c = $a + $b;
-        $this->assertEquals(8, $c);
+        $this->assertEquals(8, $c); 
     }
 
     public function testTwo()
